@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+<defs>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&amp;family=Poppins:wght@600;800&amp;display=block');</style>
+  <linearGradient id="husk" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5CC55E"/>
+    <stop offset="0.55" stop-color="#009B3A"/>
+    <stop offset="1" stop-color="#0B5D2A"/>
+  </linearGradient>
+  <radialGradient id="jelly" cx="0.45" cy="0.4" r="0.7">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#FFF8DC"/>
+  </radialGradient>
+  <radialGradient id="sun" cx="0.5" cy="0.45" r="0.6">
+    <stop offset="0" stop-color="#FFE766"/>
+    <stop offset="1" stop-color="#FED100"/>
+  </radialGradient>
+
+  <path id="ringTop" d="M60 300 A240 240 0 0 1 540 300"/>
+  <path id="ringBottom" d="M78 300 A222 222 0 0 0 522 300"/>
+</defs>
+  <circle cx="300" cy="300" r="290" fill="#111111"/>
+  <circle cx="300" cy="300" r="282" fill="none" stroke="#FED100" stroke-width="4"/>
+  <circle cx="300" cy="300" r="200" fill="url(#sun)"/>
+  <rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(0 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(30 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(60 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(90 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(120 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(150 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(180 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(210 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(240 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(270 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(300 300 300)"/><rect x="296" y="96" width="8" height="40" rx="4" fill="#FFF3A6" transform="rotate(330 300 300)"/>
+  <circle cx="300" cy="300" r="200" fill="none" stroke="#009B3A" stroke-width="10"/>
+  
+  <g transform="translate(115 85) scale(0.93)">
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#111111"
+          stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#FED100"
+          stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#009B3A"
+          stroke-width="13" stroke-dasharray="9 13" stroke-linejoin="round"/>
+    <path d="M129 135 C68 172 70 300 148 352 Q200 386 252 352 C330 300 332 172 271 135 Z"
+          fill="url(#husk)"/>
+    <path d="M128 185 Q116 250 150 315" fill="none" stroke="#FFFFFF" stroke-opacity="0.35"
+          stroke-width="16" stroke-linecap="round"/>
+    <circle cx="160" cy="175" r="7" fill="#FFFFFF" fill-opacity="0.5"/>
+    <ellipse cx="200" cy="135" rx="71" ry="17" fill="#8FD16A"/>
+    <ellipse cx="200" cy="134" rx="62" ry="13" fill="url(#jelly)"/>
+    <ellipse cx="200" cy="135" rx="18" ry="5" fill="#CFE9B4"/>
+    <path d="M318 120 q10 16 0 22 q-10 -6 0 -22z" fill="#7FD3F0"/>
+    <path d="M82 150 q7 11 0 15 q-7 -4 0 -15z" fill="#7FD3F0"/>
+  </g>
+  <text font-family="Fredoka" font-weight="700" font-size="58" fill="#FED100" letter-spacing="6"
+        text-anchor="middle"><textPath href="#ringTop" startOffset="50%">JELLY WATER</textPath></text>
+  <text font-family="Poppins" font-weight="600" font-size="26" fill="#FFFFFF" letter-spacing="8"
+        text-anchor="middle" dominant-baseline="hanging"><textPath href="#ringBottom" startOffset="50%">FRESH · JAMAICA</textPath></text>
+  <circle cx="72" cy="300" r="7" fill="#009B3A"/>
+  <circle cx="528" cy="300" r="7" fill="#009B3A"/>
+</svg>

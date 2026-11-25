@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420">
+<defs>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&amp;family=Poppins:wght@600;800&amp;display=block');</style>
+  <linearGradient id="husk" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5CC55E"/>
+    <stop offset="0.55" stop-color="#009B3A"/>
+    <stop offset="1" stop-color="#0B5D2A"/>
+  </linearGradient>
+  <radialGradient id="jelly" cx="0.45" cy="0.4" r="0.7">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#FFF8DC"/>
+  </radialGradient>
+  <radialGradient id="sun" cx="0.5" cy="0.45" r="0.6">
+    <stop offset="0" stop-color="#FFE766"/>
+    <stop offset="1" stop-color="#FED100"/>
+  </radialGradient>
+
+  <path id="ringTop" d="M60 300 A240 240 0 0 1 540 300"/>
+  <path id="ringBottom" d="M78 300 A222 222 0 0 0 522 300"/>
+</defs>
+  
+  <g transform="translate(-10 20) scale(0.95)">
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#111111"
+          stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#FED100"
+          stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200 142 L246 52 Q250 44 259 44 L292 44" fill="none" stroke="#009B3A"
+          stroke-width="13" stroke-dasharray="9 13" stroke-linejoin="round"/>
+    <path d="M129 135 C68 172 70 300 148 352 Q200 386 252 352 C330 300 332 172 271 135 Z"
+          fill="url(#husk)"/>
+    <path d="M128 185 Q116 250 150 315" fill="none" stroke="#FFFFFF" stroke-opacity="0.35"
+          stroke-width="16" stroke-linecap="round"/>
+    <circle cx="160" cy="175" r="7" fill="#FFFFFF" fill-opacity="0.5"/>
+    <ellipse cx="200" cy="135" rx="71" ry="17" fill="#8FD16A"/>
+    <ellipse cx="200" cy="134" rx="62" ry="13" fill="url(#jelly)"/>
+    <ellipse cx="200" cy="135" rx="18" ry="5" fill="#CFE9B4"/>
+    <path d="M318 120 q10 16 0 22 q-10 -6 0 -22z" fill="#7FD3F0"/>
+    <path d="M82 150 q7 11 0 15 q-7 -4 0 -15z" fill="#7FD3F0"/>
+  </g>
+  <text x="360" y="215" font-family="Fredoka" font-weight="700" font-size="170" fill="#009B3A">Jelly</text>
+  <path d="M368 245 q40 -18 80 0 t80 0 t80 0" fill="none" stroke="#FED100" stroke-width="12"
+        stroke-linecap="round"/>
+  <text x="366" y="330" font-family="Poppins" font-weight="800" font-size="70" fill="#111111"
+        letter-spacing="22">WATER</text>
+  <text x="368" y="380" font-family="Poppins" font-weight="600" font-size="22" fill="#0B5D2A"
+        letter-spacing="3">STRAIGHT FROM THE COCONUT · JAMAICA</text>
+</svg>
